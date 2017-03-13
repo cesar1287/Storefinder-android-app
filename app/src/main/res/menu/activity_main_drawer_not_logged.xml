@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/header_categories">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/nav_categories"
+                android:icon="@drawable/ic_categories"
+                android:title="@string/categories" />
+
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_starred"
+                android:title="@string/starred" />
+
+            <item
+                android:id="@+id/nav_featured"
+                android:icon="@drawable/ic_featured"
+                android:title="@string/featured" />
+
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map"
+                android:title="@string/map" />
+
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search"
+                android:title="@string/search" />
+
+            <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_news"
+                android:title="@string/news" />
+
+            <item
+                android:id="@+id/nav_weather"
+                android:icon="@drawable/ic_weather"
+                android:title="@string/weather" />
+        </menu>
+    </item>
+
+    <item android:title="@string/header_extras">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about_us"
+                android:title="@string/about_us" />
+
+            <item
+                android:id="@+id/nav_tc"
+                android:icon="@drawable/ic_tc"
+                android:title="@string/terms_and_conditions" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+    <item android:title="@string/header_user">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/register" />
+
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="@string/login" />
+        </menu>
+    </item>
+
+</menu>

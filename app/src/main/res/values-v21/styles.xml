@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="MainTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ColoredButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/theme_main_color</item>
+        <item name="android:textColor">@color/text_white_color</item>
+    </style>
+
+    <style name="AppTheme.GreenButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/theme_main_color</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/theme_main_color</item>
+    </style>
+
+    <style name="AppTheme.FacebookButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorFacebook</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/colorFacebook</item>
+    </style>
+
+    <style name="AppTheme.TwitterButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorTwitter</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/colorTwitter</item>
+    </style>
+
+    <style name="AppTheme.AccentButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/theme_main_color_accent</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/theme_main_color_accent</item>
+    </style>
+
+    <style name="AppTheme.ContactUsButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/theme_main_color_accent</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/theme_main_color_accent</item>
+    </style>
+
+    <style name="AppTheme.ThemeButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/theme_main_color</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/theme_main_color</item>
+    </style>
+
+    <style name="AppTheme.RedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/button_red_color</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:background">@color/button_red_color</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:fillViewport="true" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:scaleType="centerCrop"
+			android:src="@drawable/banner_about_us" />
+
+		<View
+			android:layout_width="wrap_content"
+			android:layout_height="5dp"
+			android:background="@color/theme_main_color" />
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="5dp"
+			android:background="@color/theme_main_color_accent" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="@dimen/dimen_10dp"
+			android:layout_weight="1"
+			android:minHeight="200dp"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_us"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_10dp"
+				android:text="@string/about_us_detail"
+				android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+
+
+		<android.support.v7.widget.AppCompatButton
+			style="@style/AppTheme.ContactUsButton"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:text="@string/contact_us"
+			android:id="@+id/btnContactUs"
+			android:layout_marginBottom="@dimen/dimen_5dp"
+			android:layout_marginLeft="@dimen/dimen_10dp"
+			android:layout_marginRight="@dimen/dimen_10dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="@dimen/dimen_20dp" />
+
+	</LinearLayout>
+
+</ScrollView>
+

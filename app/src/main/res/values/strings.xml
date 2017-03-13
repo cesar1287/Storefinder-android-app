@@ -1,0 +1,228 @@
+<resources>
+    <string name="facebook_app_id">810530662416922</string>
+    <string name="header_user">Usuário</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="app_name">Viva Vilas</string>
+    <string name="action_settings">Configurações</string>
+    <string name="no_results_found">Nenhum Resultado Encontrado.</string>
+    <string name="home">Home</string>
+    <string name="categories">Categorias</string>
+    <string name="starred">Favoritos</string>
+    <string name="featured">Em destaque</string>
+    <string name="map">Mapa</string>
+    <string name="search">Procurar</string>
+    <string name="news">Notícias</string>
+    <string name="weather">Clima</string>
+    <string name="about_us">Sobre nós</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="animation">Settings</string>
+    <string name="register">Registrar</string>
+    <string name="login">Entrar</string>
+    <string name="profile">Perfil</string>
+    <string name="header_categories">Categorias</string>
+    <string name="header_extras">Extras</string>
+    <string name="header_users">Usuários</string>
+    <string name="rate_it">Avalie!</string>
+    <string name="average_based_on">de média baseada em</string>
+    <string name="rating">nota(s)</string>
+    <string name="rate">Avaliar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="rate_store">Avaliar Loja</string>
+    <string name="ok">OK</string>
+    <string name="network_error">Network Error</string>
+    <string name="no_network_connection">Sem conexão com a internet.</string>
+    <string name="placeholder_username">Usuário</string>
+    <string name="placeholder_password">Senha</string>
+    <string name="button_login">Entrar</string>
+    <string name="button_login_to_facebook">Entrar com Facebook</string>
+    <string name="button_login_to_twitter">Entrar com Twitter</string>
+    <string name="view">View</string>
+    <string name="comments">Comentário(s)</string>
+    <string name="login_error">Erro de Autenticação</string>
+    <string name="login_error_review">Você precisa entrar antes de postar um comentário.</string>
+    <string name="login_error_rating">Você precisa entrar antes de avaliar uma loja.</string>
+    <string name="rating_error">Erro de Avaliação</string>
+    <string name="rating_error_finish">Você já avaliou essa loja.</string>
+    <string name="rating_error_something_wrong">Error while connecting. Please rate again later.</string>
+    <string name="choose_browser">Choose a browser :</string>
+    <string name="choose_email_client">Choose an Email client :</string>
+    <string name="email_subject">Store Inquiry</string>
+    <string name="email_body">Hi, your store is awesome.</string>
+    <string name="cannot_proceed">Cannot proceed because details isnt provided.</string>
+    <string name="no_image_to_display">Nenhuma imagem à ser exibida.</string>
+    <string name="handset_not_supported">This handset doest not support telephony service.</string>
+    <string name="action_error">Erro na Ação</string>
+    <string name="sms_body">Hi, your store is awesome.</string>
+    <string name="review">Comentar</string>
+    <string name="problems_encountered_facebook">Problems encountered while posting to Facebook.</string>
+    <string name="publish_cancelled">Publicação cancelada.</string>
+    <string name="publish_error">Erro na publicação</string>
+    <string name="full_name">Nome Completo</string>
+    <string name="email">Email</string>
+    <string name="user_name">Usuário</string>
+    <string name="user">User</string>
+    <string name="password">Senha</string>
+    <string name="some_fields_are_missing">Alguns campos estão vazios.</string>
+    <string name="password_length_error">Password must be at lease 8 characters long.</string>
+    <string name="field_error">Erro de Campos</string>
+    <string name="update_profile">Atualizar Perfil</string>
+    <string name="search_by_name_or_address">Procurar por Nome ou Endereço</string>
+    <string name="radius">Raio</string>
+    <string name="km">Km.</string>
+    <string name="search_nearby">Procurar próximo</string>
+    <string name="all_categories">Todas Categorias</string>
+    <string name="no_rating">No Rating</string>
+    <string name="location_error">Location Error</string>
+    <string name="cannot_determine_location">Cannot determine location.</string>
+    <string name="cannot_determine_direction">Failed to get direction.</string>
+    <string name="weather_placeholder">-------</string>
+    <string name="celsius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="route_error">Route Error</string>
+    <string name="route_error_details">Cannot route current location.</string>
+    <string name="share">Compartilhar</string>
+    <string name="placeholder_review">Comentar</string>
+    <string name="chars_left">Caractere(s) restantes</string>
+    <string name="about_us_detail">O VIVAVILAS é um canal de divulgação que visa conectar os estabelecimentos comerciais com seu respectivo
+        público. O objetivo principal do aplicativo é conduzir clientes em potencial até o estabelecimento comercial através de
+        geolocalização, bem como criar relações com novos clientes. Uma solução de marketing digital focada na experiência mobile.</string>
+    <string name="contact_us">Contate-nos</string>
+    <string name="terms_and_conditions">Termos e Condições</string>
+    <string name="terms_and_conditions_details">O VIVAVILAS é um canal de divulgação que visa conectar os estabelecimentos comerciais com
+        seu respectivo público. O objetivo principal do aplicativo é conduzir clientes em potencial até o espaço físico das lojas, bem como
+        criar relações com novos clientes. Uma solução de marketing digital focada na experiência mobile.\n\nOs Termos e Condições de Uso
+        descritos neste documento, em conjunto com os demais contratos, estabelecem a correta utilização do aplicativo VIVAVILAS. É
+        importante que TODOS os Usuários/Anunciantes leiam e compreendam as regras, bem como outras que possam ser aplicáveis, tais como
+        as advindas da Lei nº 8.078/1990 (“Código de Defesa do Consumidor”).\n\nPara os fins destes Termos e Condições de Uso, define-se:\n\n
+        a) Usuário: toda pessoa física que tenha feito o download do aplicativo VIVAVILAS por meio do Google Play;\n\n
+        b) Empresário: toda pessoa jurídica que tenha ingressado no aplicativo VIVAVILAS com objetivo de divulgar produtos e serviços de
+        seu estabelecimento comercial.\n\nEstes Termos e Condições de Uso podem ser alterados sem aviso prévio por parte da VIVAVILAS.
+        A última versão deste sempre estará disponível no Website  e na interface do app. Algumas condições disponíveis em avisos legais
+        em outros locais do Website e do app, podem substituir ou complementar os Termos e Condições de Uso, desde que expressamente
+        previsto em cada caso.\n\nQualquer pessoa que utilizar os serviços do VIVAVILAS, seja por meio de download do app, assume
+        e expressamente concorda com os Termos e Condições de Uso aqui documentados.\n\nCondições Gerais\n\n1. Sobre o VIVAVILAS\n\n1.1 -
+        O VIVAVILAS atua como um aplicativo que tem como objetivo promover estabelecimentos comerciais  e seus produtos e
+        serviços, a fim de facilitar que Usuários encontrem esses locais por geolocalização.\n\n1.2 - O VIVAVILAS  é gratuito para
+        quaisquer Usuários que desejarem efetuar o download, bem como navegar no app. O aplicativo VIVAVILAS é remunerado, entre
+        outras formas, pela venda de planos aos estabelecimentos comerciais que desejam filiar-se, para que os mesmos possam ter seus
+        serviços e seus produtos expostos no app. Os estabelecimentos nunca poderão cobrar taxas dos Usuários em nome do VIVAVILAS.\n\n
+        2. Disponibilidade do App\n\n2.1 - O VIVAVILAS irá empreender seus melhores esforços para garantir a maior disponibilidade possível
+        do app, velocidade de navegação e de seus serviços. Todavia, não nos responsabilizamos por qualquer indisponibilidade do aplicativo
+        e/ou de qualquer dos seus serviços que envolvam terceiros, por qualquer período ou momento.\n\n2.2 - O acesso ao app pode ser
+        interrompido, suspenso ou ficar intermitente temporariamente sem qualquer aviso prévio - em caso de falha de sistema, manutenção,
+        alteração de sistemas, ou por qualquer outro motivo não mencionado aqui.\n\n3. Conteúdo\n\n3.1 - O VIVAVILAS não medirá esforços
+        para manter o conteúdo do app atualizado e completo, livre de quaisquer defeitos ou vírus de modo que os produtos nele
+        disponibilizados cheguem aos Usuários da melhor forma possível. Para isto, o VIVAVILAS utiliza um dos melhores servidores
+        mundiais.\n\n3.2 - O VIVAVILAS se reserva ao direito de fazer qualquer alteração para corrigir possíveis problemas do app
+        a qualquer momento, sem prévio aviso.\n\n3.3 - Recomendamos que o Usuário entre em contato com o VIVAVILAS pelo email
+        "contato@stationcoworking.com.br" caso tenha quaisquer dúvidas com relação ao app e com os serviços antes de utilizá-lo.\n\n4. Direitos
+        de Propriedade Intelectual\n\n4.1 - O uso comercial do nome, dos desenhos e da expressão VIVAVILAS como nome empresarial,
+        marca, ou nome de domínio, bem como os conteúdos das telas relativas aos serviços do VIVAVILAS, assim como os programas,
+        bancos de dados, documentos e demais utilidades e aplicações que permitam ao Usuário/empresário acessar e usar sua conta
+        são inteiramente de propriedade do VIVAVILAS e estão protegidos por todas as leis de propriedade intelectual e tratados
+        aplicáveis.\n\n5. Links\n\n5.1 - Em virtude de nossas parcerias ou por acreditarmos que possa ser de seu interesse,
+        nós poderemos “linkar” em nosso aplicativo, a nosso exclusivo critério, outros websites, aplicativos e funcionalidades
+        da internet, sem que isso signifique que esses websites sejam de propriedade ou operados pela equipe do aplicativo VIVAVILAS.\n\n5.2
+        - O VIVAVILAS  não será responsável pelos conteúdos, práticas e serviços ofertados por estes websites e apps.\n\n5.3 - A disponibili
+        zação de links para outros websites e apps não implica em relação de sociedade, de supervisão, de cumplicidade, solidariedade
+        ou de garantia do VIVAVILAS para com esses websites e apps, bem como seus conteúdos.\n\n6. Privacidade\n\n6.1 - A privacidade
+        dos Usuários é muito importante para o VIVAVILAS. Ao nos prover com suas informações pessoais, o usuário nos autoriza
+        a divulgar e/ou utilizar estas informações estritamente de acordo com esses Termos e Condições de Uso.\n\n7. Demais Condições\n\n7.1
+        - O VIVAVILAS é uma empresa genuinamente brasileira e o app e seus serviços são criados e mantidos em fiel cumprimento às
+        leis do Brasil e demais tratados que são incorporados à jurisdição do país. Caso o Usuário/empresário esteja usufruindo
+        de nossos serviços fora do Brasil, o mesmo será responsabilizado pelo cumprimento das leis locais, a medida em que forem
+        aplicáveis.\n\n7.2 - Caso o VIVAVILAS deixe de exercer qualquer direito previsto nestes Termos e Condições de Uso,
+        isto não deverá ser interpretado como uma renúncia, abdicação ou revogação de disposição constante destes Termos e
+        Condições de Uso.\n\n7.3 - Todos os itens destes Termos e Condições de Uso serão regidos pelas leis vigentes
+        da República Federativa do Brasil. Para dirimir quaisquer controvérsias é eleito o Foro da cidade de Lauro de
+        Freitas no estado da Bahia, exceção feita à reclamações apresentadas por Usuários que se enquadrem no conceito
+        legal de consumidores, que poderão submeter suas queixas que não encontrarem solução amigável ao foro da cidade em que
+        forem radicados, conforme artigo 101, II do Código de Defesa do Consumidor.\n\n8. Cadastro e Registro\n\n8.1 - Quando o Usuário
+        /empres´rio realiza seu cadastro no app (através da rede social Facebook ou cadastrando um e-mail e senha), está atestando
+        que todos os dados fornecidos são verdadeiros, completos e precisos.\n\n8.1.1 - Prover informações incompletas, imprecisas
+        ou falsas constitui violação dos deveres destes Termos e Condições de Uso, ou seja, o Usuário/empresário é inteiramente
+        responsável pelos danos que tal violação der causa.\n\n8.1.2 - A qualquer momento o VIVAVILAS poderá necessitar e solicitar
+        mais informações e documentos do Usuário/empresario, ou seja, para melhor identificá-lo ou para conduzir diligências internas,
+        caso o Usuário/empresario seja requerido a fornecê-las. Não fornecer prontamente tais informações e documentos quando
+        requisitado constituirá violação destes Termos e Condições de Uso.\n\n8.1.3 - O VIVAVILAS  poderá utilizar as informações
+        fornecidas pelo Usuário para gerar relatórios de atividade dentro do aplicativo e disponibilizá-los para os empresarios.\n\n8.2
+        - As informações que o empresário utilizar para preencher seu cadastro podem mudar, e o mesmo deve assumir o compromisso
+        de mantê-las sempre atualizadas na sua base de dados, alterando-as tão logo ocorra alguma modificação.\n\n8.3 - O VIVAVILAS
+        poderá se valer de todas as formas lícitas para verificar, a qualquer momento, se as informações que o Usuário/empresário
+        forneceu são verdadeiras.\n\n8.3.1 - Se o VIVAVILAS constatar que as informações fornecidas pelo Usuário/empresário são
+        de alguma forma incompletas, imprecisas ou falsas, o mesmo poderá ter sua conta suspensa ou cancelada, a exclusivo critério
+        do VIVAVILAS, sem prejuízos de outras medidas que sejam aplicáveis.\n\n8.4 - O cadastro no app é pessoal e intransferível.\n\n8.5
+        - O VIVAVILAS  emprega seus melhores esforços para garantir a segurança do seu cadastro, contudo, o sigilo e a segurança do seu
+        nome de usuário e senha são de única e exclusiva responsabilidade do Usuário/empresario.</string>
+    <string name="logout">Sair</string>
+    <string name="text_empty">-------</string>
+    <string name="email_subject_company">Viva Vilas App</string>
+    <string name="email_body_company">Olá! Bom dia.</string>
+    <string name="alert_logout_user_title">Sair do Usuário</string>
+    <string name="alert_logout_user_title_details">Tem certeza que deseja sair?</string>
+    <string name="alert_logout_user_yes">Sim</string>
+    <string name="alert_logout_user_no">Não</string>
+    <string name="click_to_add_edit">Clique para\nAdicionar/Editar</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="mi">Mi</string>
+    <string name="find_nearby">Find Nearby</string>
+    <string name="empty_error">Text Empty Error</string>
+    <string name="empty_error_details">Provide text for review.</string>
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="failed_data">Failed to get data.</string>
+    <string name="editing_fields">**Quando editando todos os campos são obrigatórios.</string>
+    <string name="loading">Carregando…</string>
+    <string name="tap_back_again_to_exit">Clique no botão voltar novamente para sair do app.</string>
+    <string name="empty_distance">----</string>
+    <string name="problems_encountered_login">Problems encountered during login.</string>
+    <string name="store_nearby_radius">Store Nearby Radius</string>
+    <string name="login_error_undetermined">Error encountered during connecting.</string>
+    <string name="enter_radius">Enter Radius in KM</string>
+
+    <string name="enter_radius_in_km">Radius in KM:</string>
+    <string name="call_block_error">Cannot proceed to calling.</string>
+    <string name="download_app">Hey! Eu achei essa loja. Baixe nosso aplicativo.</string>
+    <string name="select_one_store">You need to select one store by tapping the Info window.</string>
+    <string name="gps_not_on">O GPS está atualmente desativado. Por favor ative-o nas configurações do seu telefone, Configurações > Localização.</string>
+
+    <string name="settings">Configurações</string>
+
+
+    <string name="radius_nearby">Raio de Busca</string>
+    <string name="radius_nearby_msg">Enter radius in Km.</string>
+    <string name="app_settings">Configurações do Aplicativo</string>
+    <string name="max">Máx</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_application_version">Versão do Aplicativo</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="store_reviews">Avaliações da Loja</string>
+    <string name="store_details">Detalhes da Loja</string>
+    <string name="store_images">Imagens da Loja</string>
+    <string name="twitter_app_error">Erro Aplicativo do Twitter</string>
+    <string name="twitter_app_error_details">Aplicativo do Twitter não encontrado. Por favor, instale o aplicativo na Google Play.</string>
+
+    <string name="loading_image">Carregando Imagem…</string>
+    <string name="logging_in">Entrando</string>
+
+    <string name="search_results">Search Results</string>
+    <string name="new_review">Novo Comentário</string>
+    <string name="news_detail">Detalhes da Notícia</string>
+    <string name="results">Resultados</string>
+    <string name="login_error_details">Campo Usuário/Senha vazio(s).</string>
+
+    <string name="permission_error">Erro de Permissão</string>
+    <string name="permission_error_details_location">Permission location denied. You need to turn on location to get relevant results for the stores nearby.</string>
+
+    <string name="go_to_settings">Settings</string>
+    <string name="location_error_not_turned_on">Nenhum dado à ser mostrado, pois você negou a permissão de localização.</string>
+    <string name="grant_permission_call">Você precisa conceder permissão para realizar chamadas.</string>
+    <string name="grant_permission_sms">Você precisa conceder permissão para envio de SMS.</string>
+    <string name="grant_permission_storage">Você precisa conceder permissão para ler do cartão de memória.</string>
+</resources>

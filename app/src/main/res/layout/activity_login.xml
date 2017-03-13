@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_20dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:padding="@dimen/dimen_10dp"
+                    android:gravity="center|left"
+                    android:background="@drawable/edittext_round"
+
+                    android:ems="10"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+                    android:singleLine="true"
+                    android:maxLines="@integer/num_new_lines_1"
+                    android:hint="@string/placeholder_username"
+                    android:inputType="textPersonName|text"/>
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/dimen_5dp"
+                    android:padding="@dimen/dimen_10dp"
+                    android:gravity="center|left"
+                    android:background="@drawable/edittext_round"
+
+                    android:ems="10"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+                    android:singleLine="true"
+                    android:maxLines="@integer/num_new_lines_1"
+                    android:hint="@string/placeholder_password"
+                    android:inputType="textPassword"/>
+
+
+
+                <android.support.v7.widget.AppCompatButton
+                    style="@style/AppTheme.AccentButton"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_height="50dp"
+                    android:text="@string/button_login"
+                    android:id="@+id/btnLogin"
+                    android:layout_gravity="center" />
+
+                <android.support.v7.widget.AppCompatButton
+                    style="@style/AppTheme.FacebookButton"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_height="50dp"
+                    android:text="@string/button_login_to_facebook"
+                    android:id="@+id/btnFacebook"
+                    android:layout_gravity="center" />
+
+                <android.support.v7.widget.AppCompatButton
+                    style="@style/AppTheme.TwitterButton"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_height="50dp"
+                    android:text="@string/button_login_to_twitter"
+                    android:id="@+id/btnTwitter"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

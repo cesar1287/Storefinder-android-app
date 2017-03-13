@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#1e1e1e</color>
+    <color name="colorAccent">#ff662e</color>
+
+    <color name="theme_main_color_alpha_66">#D6ff662e</color>
+    <color name="bg_gray_color">#f0f0f0</color>
+    <color name="text_gray_color">#6d6d6d</color>
+    <color name="text_red_color">#aa0000</color>
+
+    <color name="edittext_border_color">#e5e5e5</color>
+    <color name="colorAccentDisabled">#cacaca</color>
+    <color name="line_color">#e5e5e5</color>
+    <color name="color_white_alpha">#11FFFFFF</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <color name="placeholder_bg_color">#cacaca</color>
+    <color name="placeholder_fill_color">#e5e5e5</color>
+
+    <color name="colorFacebook">#3549af</color>
+    <color name="colorTwitter">#44bcd8</color>
+    <color name="colorTitleText">#ffffffff</color>
+
+    <color name="theme_ads_bg_color">#303030</color>
+
+    <color name="theme_main_color">#303030</color>
+    <color name="theme_main_color_dark">#1e1e1e</color>
+    <color name="theme_main_color_accent">#ff662e</color>
+    <color name="theme_main_color_accent_disabled">#cacaca</color>
+    <color name="text_white_color">#ffffffff</color>
+
+    <color name="theme_main_color_start">#d25426</color>
+    <color name="theme_main_color_center">#ff662e</color>
+    <color name="theme_main_color_end">#943715</color>
+
+    <color name="button_red_color">#e15452</color>
+    <color name="no_result_text_color">#ffffffff</color>
+
+    <color name="slider_bg_label">#A7000000</color>
+
+    <color name="gray_color">#a3a3a3</color>
+    <color name="black_color">#303030</color>
+
+    <color name="button_blue_color">#3cd2eb</color>
+    <color name="color_header">#AA000000</color>
+
+    <color name="splash_blue">#00AAD4</color>
+</resources>

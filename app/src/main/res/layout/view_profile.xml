@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+			<ImageView
+				android:id="@+id/imgViewCover"
+				android:layout_width="match_parent"
+				android:layout_height="250dp"
+				android:scaleType="centerCrop"
+				android:src="@mipmap/bg_image_placeholder"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text="@string/click_to_add_edit"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@color/text_white_color"
+				android:textSize="@dimen/text_size_14sp" />
+
+		</FrameLayout>
+
+
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="5dp"
+			android:background="@color/theme_main_color_accent" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:layout_margin="@dimen/dimen_10dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<FrameLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" >
+
+					<!-- <com.libraries.imageview.RoundedImageView
+                        android:id="@+id/imgViewThumb"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="center"
+                        app:mutate_background="false"
+                        android:src="@drawable/profile_thumb_placeholder" /> -->
+
+					<com.libraries.imageview.MGImageView
+						android:id="@+id/imgViewThumb"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:adjustViewBounds="true"
+						android:cropToPadding="true"
+						android:scaleType="center"
+						android:src="@mipmap/bg_image_thumb_placeholder" />
+
+					<TextView
+						android:id="@+id/textView11"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="center"
+						android:text="@string/click_to_add_edit"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:textColor="@color/text_white_color"
+						android:textSize="@dimen/text_size_12sp" />
+
+				</FrameLayout>
+
+
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="@dimen/dimen_5dp"
+					android:orientation="vertical"
+					android:layout_marginRight="@dimen/dimen_5dp">
+
+					<EditText
+						android:id="@+id/txtFullName"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:background="@drawable/edittext_round"
+						android:padding="@dimen/dimen_10dp"
+						android:ems="10"
+						android:hint="@string/full_name" >
+
+					</EditText>
+
+
+					<EditText
+						android:id="@+id/txtPassword"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:layout_marginTop="@dimen/dimen_5dp"
+						android:background="@drawable/edittext_round"
+						android:padding="@dimen/dimen_10dp"
+						android:hint="@string/password"
+						android:inputType="textPassword" >
+					</EditText>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_10dp"
+				android:layout_weight="1"
+				android:text="@string/editing_fields"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textColor="@color/theme_main_color" />
+
+		</LinearLayout>
+
+		<android.support.v7.widget.AppCompatButton
+			style="@style/AppTheme.AccentButton"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:text="@string/update_profile"
+			android:id="@+id/btnRegister"
+			android:layout_marginBottom="@dimen/dimen_5dp"
+			android:layout_marginLeft="@dimen/dimen_10dp"
+			android:layout_marginRight="@dimen/dimen_10dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="@dimen/dimen_20dp" />
+
+		<android.support.v7.widget.AppCompatButton
+			style="@style/AppTheme.RedButton"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:text="@string/logout"
+			android:id="@+id/btnLogout"
+			android:layout_marginBottom="@dimen/dimen_5dp"
+			android:layout_marginLeft="@dimen/dimen_10dp"
+			android:layout_marginRight="@dimen/dimen_10dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="@dimen/dimen_20dp" />
+
+
+	</LinearLayout>
+</ScrollView>
