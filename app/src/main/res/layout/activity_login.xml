@@ -73,15 +73,6 @@
                     android:id="@+id/btnFacebook"
                     android:layout_gravity="center" />
 
-                <android.support.v7.widget.AppCompatButton
-                    style="@style/AppTheme.TwitterButton"
-                    android:layout_width="match_parent"
-                    android:layout_marginTop="@dimen/dimen_10dp"
-                    android:layout_height="50dp"
-                    android:text="@string/button_login_to_twitter"
-                    android:id="@+id/btnTwitter"
-                    android:layout_gravity="center" />
-
             </LinearLayout>
 
         </LinearLayout>
