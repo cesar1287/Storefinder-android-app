@@ -66,9 +66,6 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
 		Button btnFacebook = (Button) this.findViewById(R.id.btnFacebook);
 		btnFacebook.setOnClickListener(this);
 
-		Button btnTwitter = (Button) this.findViewById(R.id.btnTwitter);
-		btnTwitter.setOnClickListener(this);
-
 		mTwitter = new TwitterApp(this, twitterAppListener);
 
 		FacebookSdk.sdkInitialize(this.getApplicationContext());
@@ -127,9 +124,6 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
 				LoginManager.getInstance().logOut();
 				LoginManager.getInstance().logInWithReadPermissions(
 						this, Arrays.asList("email", "public_profile"));
-				break;
-			case R.id.btnTwitter:
-				loginToTwitter();
 				break;
 		}
 	}

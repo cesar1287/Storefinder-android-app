@@ -28,7 +28,7 @@ public class Config {
 	public static final String BANNER_UNIT_ID = "ca-app-pub-1616470634359992/2091423063";
 	
 	// Change this url depending on the name of your web hosting.
-	public static String BASE_URL = "http://mangasaurgames.com/apps/storefinder-v1.8/";
+	public static String BASE_URL = "http://www.clubedaprancha.com/storefinder/";
 
 	// Facebook URL to be used when sharing
 	public final static String SERVER_URL_DEFAULT_PAGE_FOR_FACEBOOK = "http://mangasaurgames.com";
