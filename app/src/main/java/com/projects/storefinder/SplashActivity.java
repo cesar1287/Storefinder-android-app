@@ -24,6 +24,6 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
 
             }
-        }, 1000 / Config.SPLASH_DELAY_IN_SECONDS);
+        }, Config.SPLASH_DELAY_IN_SECONDS);
     }
 }

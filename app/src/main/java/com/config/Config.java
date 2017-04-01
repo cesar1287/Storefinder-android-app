@@ -144,7 +144,7 @@ public class Config {
     public final static boolean AUTO_ADJUST_DISTANCE = true;
 
 	// DO NOT EDIT THIS
-	public final static int SPLASH_DELAY_IN_SECONDS = 3;
+	public final static int SPLASH_DELAY_IN_SECONDS = 4000;
 
 	// DO NOT EDIT THIS
 	public final static boolean SHOW_LOCATION_COORDINATES_LOG = false;
