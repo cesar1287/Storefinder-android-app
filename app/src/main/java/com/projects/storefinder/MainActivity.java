@@ -210,10 +210,6 @@ public class MainActivity extends AppCompatActivity
             showFragment(new TermsConditionFragment());
             setTitle(R.string.terms_and_conditions);
         }
-        if (id == R.id.nav_weather) {
-            showFragment(new WeatherFragment());
-            setTitle(R.string.weather);
-        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
