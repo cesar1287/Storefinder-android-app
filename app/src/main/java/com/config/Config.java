@@ -22,7 +22,7 @@ public class Config {
 	public static final String TESTING_DEVICE_HASH = "962DF709776186FBDC976A72D1FA61BD";
 	
 	// Set to true if you want to display ads in all views.
-	public static final boolean WILL_SHOW_ADS = true;
+	public static final boolean WILL_SHOW_ADS = false;
 	
 	// You AdMob Banner Unit ID
 	public static final String BANNER_UNIT_ID = "ca-app-pub-1616470634359992/2091423063";
@@ -31,10 +31,10 @@ public class Config {
 	public static String BASE_URL = "http://www.clubedaprancha.com/storefinder/";
 
 	// Facebook URL to be used when sharing
-	public final static String SERVER_URL_DEFAULT_PAGE_FOR_FACEBOOK = "http://mangasaurgames.com";
+	public final static String SERVER_URL_DEFAULT_PAGE_FOR_FACEBOOK = "http://www.stationcoworking.com.br/";
 
 	// Twitter URL to be used when sharing
-	public final static String SERVER_URL_DEFAULT_PAGE_FOR_TWITTER = "http://mangasaurgames.com";
+	public final static String SERVER_URL_DEFAULT_PAGE_FOR_TWITTER = "http://www.stationcoworking.com.br/";
 
 	// Your email that you wish that users on your app will contact you.
 	public static String ABOUT_US_EMAIL = "contato@stationcoworking.com.br";
