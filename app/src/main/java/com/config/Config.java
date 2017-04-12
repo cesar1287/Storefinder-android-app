@@ -65,7 +65,7 @@ public class Config {
 	public final static int MAP_ZOOM_LEVEL = 14;
 
 	// Edit this to increase radius to show stores nearby
-	public final static int MAX_RADIUS_NEARBY_IN_METERS = 2000;
+	public final static int MAX_RADIUS_NEARBY_IN_METERS = 50000;
 	
 	// Debug state, set this always to true to get always an update of data.
 	public final static boolean WILL_DOWNLOAD_DATA = true;

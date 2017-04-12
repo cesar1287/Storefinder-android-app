@@ -105,7 +105,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyACYy7f2LNTXPpUbWMuR8xyT_TAxgc-1KI"/>
 
     </application>
 
