@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.projects.storefinder">
+    package="comcom.projects.storefinder">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -18,7 +18,7 @@
     <uses-feature android:name="android.hardware.telephony" android:required="false" />
 
     <application
-        android:name="com.application.StoreFinderApplication"
+        android:name="comcom.application.StoreFinderApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,7 +26,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".SplashActivity"
+            android:name="comcom.projects.storefinder.SplashActivity"
             android:theme="@style/SplashTheme"
             android:label="@string/app_name">
             <intent-filter>
@@ -36,21 +36,21 @@
         </activity>
 
         <activity
-            android:name="com.projects.storefinder.MainActivity"
+            android:name="comcom.projects.storefinder.MainActivity"
             android:theme="@style/MainTheme"
             android:label="@string/app_name"/>
 
         <activity
-            android:name="com.projects.activities.SettingsActivity"
+            android:name="comcom.projects.activities.SettingsActivity"
             android:theme="@style/AppTheme.SettingsTheme"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:label="@string/settings"/>
 
-        <activity android:name="com.projects.activities.ProfileActivity"
+        <activity android:name="comcom.projects.activities.ProfileActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.RegisterActivity"
+        <activity android:name="comcom.projects.activities.RegisterActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:label="@string/app_name" />
 
@@ -62,30 +62,30 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>
 
-        <activity android:name="com.projects.activities.LoginActivity"
+        <activity android:name="comcom.projects.activities.LoginActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.DetailActivity"
+        <activity android:name="comcom.projects.activities.DetailActivity"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.ReviewActivity"
+        <activity android:name="comcom.projects.activities.ReviewActivity"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.NewReviewActivity"
+        <activity android:name="comcom.projects.activities.NewReviewActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.ImageViewerActivity"
+        <activity android:name="comcom.projects.activities.ImageViewerActivity"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.NewsDetailActivity"
+        <activity android:name="comcom.projects.activities.NewsDetailActivity"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.StoreActivity"
+        <activity android:name="comcom.projects.activities.StoreActivity"
             android:label="@string/app_name" />
 
-        <activity android:name="com.projects.activities.SearchResultActivity"
+        <activity android:name="comcom.projects.activities.SearchResultActivity"
             android:label="@string/app_name" />
 
         <activity android:name="com.google.android.gms.ads.AdActivity"

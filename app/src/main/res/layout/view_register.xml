@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" >
 
-                <com.libraries.imageview.MGImageView
+                <comcom.libraries.imageview.MGImageView
                         android:id="@+id/imgViewThumb"
                         android:layout_width="100dp"
                         android:layout_height="100dp"

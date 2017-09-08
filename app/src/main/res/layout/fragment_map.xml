@@ -19,7 +19,7 @@
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <com.libraries.drawingview.DrawingView
+    <comcom.libraries.drawingview.DrawingView
         android:id="@+id/drawingView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

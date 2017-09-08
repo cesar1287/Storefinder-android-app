@@ -16,7 +16,7 @@
 	        android:layout_margin="@dimen/dimen_5dp"
 	        android:padding="@dimen/dimen_5dp" >
 	
-	        <com.libraries.imageview.RoundedImageView
+	        <comcom.libraries.imageview.RoundedImageView
 	            android:id="@+id/imgViewThumb"
 	            android:layout_width="75dp"
 	            android:layout_height="75dp"
